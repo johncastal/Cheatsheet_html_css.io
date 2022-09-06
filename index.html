@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>CSS Cheat Sheet selectors</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<body>
+
+<!--<img src="img_la.jpg" alt="LA" style="width:100%">-->
+<div class="container">
+<div class="main-left">
+ <h1>CSS basic selectors</h1>
+ <p>Here there are the basic selectors to buils simple style in your website</p>
+  <table>
+  <tr>
+    <th>Selector</th>
+    <th>Property</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td> ID, class, element </td>
+    <td> text-align: </td>
+    <td> {center}; </td>
+  </tr>
+
+</table>
+
+</div>
+<div class="main-right">
+  <h2> CSS Specificity </h2>
+  <p>The Specificity is defined commonly in the next order:</p>
+  <ol>
+    <li>Inline</li>
+    <li>ID (#id)</li>
+    <li>Classes, attributes and pseudo-classes</li>
+    <li>Elements and pseudo-elements</li>
+  </ol>
+  <p>More information <a href="https://devopedia.org/css-specificity">here</a></p>
+  <h2> Selector's Types </h2>
+  <h3> Inline </h3>
+  <p> This selector es defined within HTML code. To do that is needed to use key: <span class='codespan'>"style:"</span> </p>
+  <h3> ID </h3>
+  <p>This is in CSS the most specific selector. In CSS file is called as <span class='codespan'>"#ID:"</span> </p>
+  <h3> Classes </h3>
+  <p>With this selector is possible to define classes within HTML elements. CSS is defined as <span class='codespan'>".class:"</span>. </p>
+<h3> Attributes </h3>
+<p> Allow define propertis through the keyword <span class='codespan'>"target"</span> in HTML. This is used to build specifically within the same HTML elements. CSS is defined as <span class='codespan'>"element[target]"</span> </p>
+<h3> Pseudo classes </h3>
+<p> It is a keyword that is added to selectors and specifies a special state of a selected element. Is defined as <span class='codespan'>"selector:pseudoclass"</span>. </p>
+<h3> Elements </h3>
+<p> Correspond to elements defined in HTML such as <span class='codespan'>"h","p","ul","li"</span>. </p>
+<h3> Pseudo elements </h3>
+<p> Is used to modify parts of elements in HTML or add a special style. In CSS is defined as <span class='codespan'>"element::first-line"</span>. </p>
+</div>
+</div>
+
+</body>
+</html>
