@@ -16,7 +16,7 @@ table {
   border-collapse: collapse;
 }
 
-td {
+#cell {
   text-align: center;
 }
 
